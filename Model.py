@@ -338,4 +338,6 @@ generated_text, probs = generation.generate_text(
 print("Generated text:", generated_text)
 print("\n")
 
+
+
 visualizations.plot_next_token(probs[0], prompt=prompt, tokenizer=tokenizer)
