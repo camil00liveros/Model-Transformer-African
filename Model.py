@@ -340,6 +340,4 @@ print("\n")
 
 
 
-
-
 visualizations.plot_next_token(probs[0], prompt=prompt, tokenizer=tokenizer)
