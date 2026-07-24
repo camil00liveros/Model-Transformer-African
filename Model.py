@@ -334,9 +334,6 @@ generated_text, probs = generation.generate_text(
 )
 
 
-
-
-
 print("Generated text:", generated_text)
 print("\n")
 
