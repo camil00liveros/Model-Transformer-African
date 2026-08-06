@@ -9,6 +9,8 @@ from PIL import Image
 from tqdm.auto import tqdm
 from google.colab import files
 
+
+
 print('PyMuPDF version:', fitz.__version__)
 
 # ── Cargar PDF ──────────────────────────────────────────────
