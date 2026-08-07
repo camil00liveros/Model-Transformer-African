@@ -11,6 +11,9 @@ from google.colab import files
 
 print('PyMuPDF version:', fitz.__version__)
 
+
+
+
 # ── Cargar PDF ──────────────────────────────────────────────
 uploaded = files.upload()
 PDF_PATH = next(iter(uploaded.keys()))
